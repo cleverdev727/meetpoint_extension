@@ -1,0 +1,23 @@
+{
+  "short_name": "Meetpoint",
+  "name": "Meetpoint",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": { 
+    "extension_pages": "script-src 'self'; object-src 'self';",
+    "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' 'sha256-1mxJCKUBFLiiU9y2O1IjXurWKvZjgExDgjvTsSKXfS4=' 'sha256-1ZJslE71tYMbBWZtsWAhduv+8dj9f7QnkBnAx5ixzQI='; object-src 'self'; style-src 'self' 'unsafe-inline'"
+  },
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "identity"
+  ],
+  "oauth2": {
+    "client_id": "873569654932-ake72iuj8n05cgb0npsl22u9vi1mns8p.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  }
+}

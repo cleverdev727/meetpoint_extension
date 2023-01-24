@@ -1,0 +1,13 @@
+{
+  "short_name": "Meetpoint",
+  "name": "Meetpoint",
+  "manifest_version": 3,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' https://apis.google.com https://www.googletagmanager.com 'unsafe-eval' 'sha256-1mxJCKUBFLiiU9y2O1IjXurWKvZjgExDgjvTsSKXfS4=' 'sha256-1ZJslE71tYMbBWZtsWAhduv+8dj9f7QnkBnAx5ixzQI='; object-src 'self'; style-src 'self' 'unsafe-inline'",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ]
+}
